@@ -11,7 +11,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-		StringColorBaconian cipher = new StringColorBaconian(Color.RED, Color.GREEN, "abcdefghijklmnopqrstuvwxyz");
+		StringColorBaconian cipher = new StringColorBaconian(Color.GREEN, Color.RED, "abcdefghijklmnopqrstuvwxyz");
 		JPanel keyPanel = cipher.getKeyPanel();
 		
 		JFrame frame = new JFrame("Key");

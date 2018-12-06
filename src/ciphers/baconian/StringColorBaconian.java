@@ -48,7 +48,6 @@ public class StringColorBaconian {
 	}
 	
 	public JPanel getCode(String s) {
-		s = this.cleanString(s);
 		JPanel panel = new JPanel(new GridLayout(s.length(),1));
 		for(int i=0; i<s.length(); i++) {
 			panel.add(getCode(s.charAt(i)));
